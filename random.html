@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- <div class="nav-container">
+        <nav>
+            <div class="nav-bar">
+                <ul>
+                    <li><a href="html.html">html</a></li>
+                    <li><a href="css.html"></a>css</a></li>
+                    <li><a href="js.html"></a>javascript</a></li>
+                    <li><a href="other.html">misc</a></li>
+                </ul>
+                <nav> -->
+    <div class="nav-container">
+
+        <div class="nav-bar">
+
+            <div class="nav-item">
+                <p id="html-btn" onclick="displayHtml()">html</p>
+            </div>
+
+            <div class="nav-item">
+                <p id="css-btn" onclick="displayCss()">css</p>
+            </div>
+
+            <div class="nav-item">
+                <p id="js-btn" onclick="displayJs()">javascript</p>
+            </div>
+
+            <div class="nav-item">
+                <p id="random-btn" onclick="displayRandom()">random</p>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="current-flashcard">
+        <p id="display-flashcard"></p>
+    </div>
+
+    <script src="random.js"></script>
+
+</body>
+
+</html>
